@@ -12,41 +12,96 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayoutConstraints" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player or iOS Dev?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OYk-Ph-iBD">
-                                <rect key="frame" x="130.66666666666666" y="454.66666666666669" width="140.99999999999997" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Player or iOS Dev?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OYk-Ph-iBD">
+                                <rect key="frame" x="-70.333333333333314" y="455" width="140.66666666666663" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J1X-py-VvI">
-                                <rect key="frame" x="95.333333333333329" y="485.66666666666669" width="211.33333333333337" height="10"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J1X-py-VvI">
+                                <rect key="frame" x="-105.33333333333333" y="485.33333333333331" width="210.66666666666666" height="10"/>
                                 <color key="backgroundColor" red="1" green="0.72376734500642992" blue="0.90214988020525611" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="10" id="4BB-2f-g8f"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNi-c7-ZBQ">
-                                <rect key="frame" x="334" y="124" width="52" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="gear" catalog="system"/>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Ato-3Q-j0l">
+                                <rect key="frame" x="16" y="123.99999999999999" width="583.33333333333337" height="34.333333333333329"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVj-ty-0i5">
+                                        <rect key="frame" x="0.0" y="0.0" width="51.333333333333336" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="gear" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpo-qN-gw7">
+                                        <rect key="frame" x="76" y="0.0" width="51.333333333333343" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="gear" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QfJ-qU-5FB">
+                                        <rect key="frame" x="152" y="0.0" width="51.333333333333343" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="gear" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNi-c7-ZBQ">
+                                        <rect key="frame" x="228" y="0.0" width="51.333333333333314" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="gear" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="szm-je-7xx">
+                                        <rect key="frame" x="304" y="0.0" width="51.333333333333314" height="34.333333333333336"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="gear" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="JmN-9M-HY6">
+                                        <rect key="frame" x="380" y="0.0" width="51.333333333333314" height="34.333333333333336"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="gear" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="HR4-aK-eeg">
+                                        <rect key="frame" x="456" y="0.0" width="51.333333333333314" height="34.333333333333336"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="gear" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="ich-Bi-gZg">
+                                        <rect key="frame" x="532" y="0.0" width="51.333333333333371" height="34.333333333333336"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="gear" catalog="system"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Ato-3Q-j0l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3yn-CP-wvX"/>
                             <constraint firstItem="J1X-py-VvI" firstAttribute="centerX" secondItem="OYk-Ph-iBD" secondAttribute="centerX" id="G1M-Gb-aCc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TNi-c7-ZBQ" secondAttribute="trailing" constant="16" id="WFW-7a-GZb"/>
-                            <constraint firstItem="TNi-c7-ZBQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gOv-YP-79L"/>
                             <constraint firstItem="J1X-py-VvI" firstAttribute="top" secondItem="OYk-Ph-iBD" secondAttribute="bottom" constant="10" id="jqR-8e-3jA"/>
+                            <constraint firstItem="OYk-Ph-iBD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kcQ-EL-jBL"/>
                             <constraint firstItem="OYk-Ph-iBD" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="om2-8b-NsH"/>
                             <constraint firstItem="J1X-py-VvI" firstAttribute="width" secondItem="OYk-Ph-iBD" secondAttribute="width" multiplier="1.5" id="tUg-g3-rsb"/>
+                            <constraint firstItem="Ato-3Q-j0l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="u6T-4o-b2f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ato-3Q-j0l" secondAttribute="trailing" constant="18.670000000000002" id="wb9-E3-H6t"/>
                             <constraint firstItem="OYk-Ph-iBD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yYh-HU-6Xy"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="kcQ-EL-jBL"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="labelCenterYConstraint" destination="om2-8b-NsH" id="kc4-Qi-NkD"/>
+                        <outlet property="labelTopConstraint" destination="kcQ-EL-jBL" id="UvU-Su-6Pj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
